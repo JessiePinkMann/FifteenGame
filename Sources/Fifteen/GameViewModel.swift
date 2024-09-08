@@ -18,15 +18,15 @@ class GameViewModel {
     
     func startGames() {
         tokens = [
-            Token(id: 1, number: 4, isEmpty: false),
-            Token(id: 2, number: 7, isEmpty: false),
-            Token(id: 3, number: 5, isEmpty: false),
-            Token(id: 4, number: 8, isEmpty: false),
-            Token(id: 5, number: 1, isEmpty: false),
-            Token(id: 6, number: 2, isEmpty: false),
-            Token(id: 7, number: 6, isEmpty: false),
-            Token(id: 8, number: 0, isEmpty: true),
-            Token(id: 9, number: 3, isEmpty: false)
+            Token(id: 1, number: 1, isEmpty: false),
+            Token(id: 2, number: 2, isEmpty: false),
+            Token(id: 3, number: 3, isEmpty: false),
+            Token(id: 4, number: 4, isEmpty: false),
+            Token(id: 5, number: 5, isEmpty: false),
+            Token(id: 6, number: 6, isEmpty: false),
+            Token(id: 7, number: 0, isEmpty: true),
+            Token(id: 8, number: 8, isEmpty: false),
+            Token(id: 9, number: 7, isEmpty: false)
         ]
         movesCount = 0
     }
