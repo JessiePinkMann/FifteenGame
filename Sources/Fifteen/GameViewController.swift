@@ -7,14 +7,14 @@
 
 import UIKit
 
-class GameViewController: UIViewController {
+public class GameViewController: UIViewController {
     
     private let viewModel = GameViewModel()
     private var collectionView: UICollectionView!
     private let movesLabel = UILabel()
     private let restartButton = UIButton(type: .system)
     
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor(named: "primaryBackground")
         setupUI()
