@@ -24,7 +24,7 @@ class GameViewModel {
             Token(id: 4, number: 0, isEmpty: true),
             Token(id: 5, number: 5, isEmpty: false),
             Token(id: 6, number: 6, isEmpty: false),
-            Token(id: 7, number: 4, isEmpty: true),
+            Token(id: 7, number: 4, isEmpty: false),
             Token(id: 8, number: 7, isEmpty: false),
             Token(id: 9, number: 8, isEmpty: false)
         ]
